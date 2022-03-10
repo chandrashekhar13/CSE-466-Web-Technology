@@ -1,0 +1,12 @@
+html
+   head
+      title Person
+   body
+      if(type == "error")
+         h3(style = "color:red") #{message}
+      else
+         h3 New Movie, 
+            MovieName: #{Movie.MovieName}, 
+            MovieYear: #{Movie.MovieYear},
+            MovieGenre: #{Movie.MovieGenre} and 
+            Director: #{Movie.Director} added!

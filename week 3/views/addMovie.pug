@@ -1,0 +1,24 @@
+html
+head
+   title addMovie
+   body
+      form(action = "/addMovie", method = "POST")
+      div
+         label(for = "MovieName") MovieName: 
+         input(name = "MovieName")
+      br
+      div
+         label(for = "MovieYear") MovieYear: 
+         input(name = "MovieYear")
+      br
+      div
+         label(for = "MovieGenre") MovieGenre: 
+         input(name = "MovieGenre")
+      br
+      div
+         label(for = "DIrector") Director: 
+         input(name = "Director")
+      br
+      div
+        button(type = "submit") Added new Movie
+
